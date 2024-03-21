@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/Html İcon.ico">
+    <meta charset="UTF-8">
+    <meta name="title" content="Üye Olma Paneli" <meta name="keywords"
+        content="uyegiris, uyegirispaneli,panel,uygulama,uygulama4">
+    <meta name="description" content="Üye Giriş Paneli Uygulaması Yapıyorum.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Üye Olma Paneli</title>
+</head>
+
+<body>
+    <h1>Sıfırdan İleri Seviye Front-end Öğreniyorum</h1>
+    <h2>Üye Giriş Paneli - Uygulaması</h2>
+    <hr>
+    <h4>Hesap Bilgileriniz</h4>
+    <form action="uyegiris/uyegiris.php">
+        <p>
+            Kullanıcı Adı: <input type="text" name="kullaniciadi" required placeholder="Kullanıcı Adı Giriniz">
+        </p>
+        <p>
+            E-Posta: <input type="email" name="email" required placeholder="E-posta Giriniz">
+        </p>
+        <p>
+            Parola: <input type="password" name="pwd" required placeholder="Parola Giriniz">
+        </p>
+        <h4>Kişisel Bilgileriniz</h4>
+        <p>
+            Ad: <input type="text" name="ad" required placeholder="Adınızı Giriniz">
+        </p>
+        <p>
+            Soyad: <input type="text" name="soyad" required placeholder="Soyadınızı Giriniz">
+        </p>
+        <p>
+            Şehir: <select name="sehir" required>
+                <option>Seçiniz</option>
+                <option>Edirne</option>
+                <option>Bursa</option>
+                <option>İstanbul</option>
+                <option>Ankara</option>
+                <option>Diyarbakır</option>
+            </select>
+        </p>
+        <p>
+            Cinsiyet: <input type="radio" name="cinsiyet"> Erkek
+            <input type="radio" name="cinsiyet"> Kadın
+            <input type="radio" name="cinsiyet"> Belirtmeyi Tercih Etmiyorum
+        </p>
+        <p>
+            Hobileriniz: <input type="checkbox" name="hobileriniz"> Sinema
+            <input type="checkbox" name="hobileriniz"> Spor
+            <input type="checkbox" name="hobileriniz"> Yazılım
+            <input type="checkbox" name="hobileriniz"> Kitap
+        </p>
+        <p>
+            <input type="submit" value="Kaydet">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
